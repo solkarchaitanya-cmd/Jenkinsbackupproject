@@ -2,7 +2,7 @@
 
 # Variables
 JENKINS_HOME="/var/lib/jenkins"
-S3_BUCKET="s3://crourse-end-project-jenkins-backup"
+S3_BUCKET="s3://jenkins-backup-course-end-project"
 TIMESTAMP=$(date +'%Y-%m-%d_%H-%M-%S')
 BACKUP_NAME="jenkins-backup-$TIMESTAMP.tar.gz"
 
